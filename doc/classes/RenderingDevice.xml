@@ -116,7 +116,7 @@
 		<method name="draw_command_begin_label">
 			<return type="void" />
 			<param index="0" name="name" type="String" />
-			<param index="1" name="color" type="Color" />
+			<param index="1" name="color" type="Color" default="Color(1, 1, 1, 1)" />
 			<description>
 			</description>
 		</method>
@@ -128,7 +128,7 @@
 		<method name="draw_command_insert_label">
 			<return type="void" />
 			<param index="0" name="name" type="String" />
-			<param index="1" name="color" type="Color" />
+			<param index="1" name="color" type="Color" default="Color(1, 1, 1, 1)" />
 			<description>
 			</description>
 		</method>
